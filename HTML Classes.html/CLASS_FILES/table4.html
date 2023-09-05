@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tablesfour</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        table, tr, th, td{
+            border: 1px solid black;
+            padding: 10px;
+            border-spacing: 10px;
+            border-collapse: collapse;
+            border-collapse: separate;
+        }
+        caption{
+            caption-side: top;
+            caption-side: bottom;
+        }
+        
+        /* here the empty cell is hiding by default only, need to check it again */
+        td{
+            empty-cells: show;
+            empty-cells: hide;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>List of products</caption>
+        <thead>
+        <tr>
+            <th>Sno.</th>
+            <th>Product name</th>
+            <th>Product price</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>samsung</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>one plus</td>
+           
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>vivo</td>
+            <td>25000</td>
+        </tr>
+        </tbody>
+        <!-- colspan=2 is taken to display 'total' column for both sno. and product name columns -->
+       <tfoot>
+        <tr>
+            <td colspan="2">total</td>
+            <td>100000</td>
+        </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

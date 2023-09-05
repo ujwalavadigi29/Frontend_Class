@@ -1,0 +1,53 @@
+ <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202212/redminote12pseries-one_one.jpg?VersionId=dDFCRqwTf1EbrBw0JuG_Ij2RI8TynGzP" alt="mobile image">
+ 
+
+ <img src="https://i.rtings.com/assets/pages/6S2WXjTl/best-laptop-medium.jpg" alt="laptop image">
+
+ <img src="https://img.freepik.com/free-vector/household-appliances-icons-set_1284-6787.jpg?w=2000" alt="home appliances">
+
+ <img src="https://rukminim2.flixcart.com/image/850/1000/kq5iykw0/makeup-kit/3/k/u/beauty-new-99-beauty-cosmetics-original-imag486zybawksgb.jpeg?q=20" alt="Cosmetics">
+
+ <img src="https://cdn.cdnparenting.com/articles/2019/04/01122845/Creative-Toys-for-Kids-462740626.jpg" alt="Toys">
+
+ <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/549da2bd6ce14481.png?q=20" alt="normal pic">
+
+ <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/q/e/z/-original-imagpxgqesgrthks.jpeg?q=70" alt="laptop image">
+
+ <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/4/b/h/-original-imagp7pfa6tscqpx.jpeg?q=70" alt="image">
+
+ <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/computer/n/i/u/-original-imagpa5fbvqzk2xn.jpeg?q=70" alt="image">
+
+ <img src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/68a88f5f8e47a1a1.jpg?q=50" alt="">
+
+ <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/jam-spread/m/u/q/-original-imagrbas39cjfzrn.jpeg?q=70" alt="image">
+
+ <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/jam-spread/o/w/v/-original-imagmwb4fjzt3yyx.jpeg?q=70" alt="image">
+
+ <img src="https://rukminim2.flixcart.com/image/832/832/kv9urgw0/jam-spread/o/v/l/1-peanut-butter-with-high-protein-for-muscle-building-weight-original-imag87eszwzeah3u.jpeg?q=70" alt="image">
+
+ <img src="https://rukminim2.flixcart.com/image/832/832/l26hdow0/jam-spread/5/o/m/900-peanut-butter-creamy-plastic-bottle-1-nut-butter-saffola-original-imagdh3yrvhtc6vx.jpeg?q=70" alt="image">
+
+
+
+
+
+
+
+
+
+
+ <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="username" placeholder="User Name">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" name="email" placeholder="Email id">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="text" name="paswrd" placeholder="Password">
+                    </div>
+    
+                </div>

@@ -1,0 +1,59 @@
+<!-- The use of action attribute in form tag is the we can add some url there.
+We use input tag for form tag to take required user input through the html Page
+For input tag we need label element to give a heading to the input field. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Forms</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form filling</legend>
+        <form action="./submit.html" method="get">
+    <!-- Label and Input tags are combined tags, we can integrate both these tags by using 'id' attribute in 'input' element and 'for' attribute in 'label' elemnt -->
+    <!-- Label element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element. Also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together. -->
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname"><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname"><br>
+
+        <label for="email">Emailid</label>
+        <input type="text" name="email" id="email"><br>
+
+        <label for="contactno">contact</label>
+        <input type="text" name="contactno" id="contactno" placeholder="Enter contactnumber"><br>
+
+        <label for="uname">Username</label>
+        <input type="text" name="uname" id="uname" placeholder="Enter username"><br>
+
+        <label for="pswrd">Password</label>
+        <input type="password" name="pswrd" id="pswrd" placeholder="Enter Password"><br>
+ 
+        <p><b>Gender</b></p>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male"><br>
+
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female"><br>
+
+
+        <p><b>Skills</b></p>
+
+        <label for="python">python</label>
+        <input type="checkbox" name="python" id="python"><br>
+
+        <label for="java">java</label>
+        <input type="checkbox" name="java" id="java"><br>
+
+        <label for="JavaScript">JavaScript</label>
+        <input type="checkbox" name="JavaScript" id="JavaScript"><br>
+
+        <label for="php">php</label>
+        <input type="checkbox" name="php" id="php"><br>
+        <input type="reset">
+        <input type="submit">
+        </form>
+    </fieldset>
+</body>
+</html>

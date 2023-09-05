@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practise work</title>
+    <style>
+        .s1{
+            font-size: xx-large;
+            /* border: 2px solid black; */
+            padding: 15px;
+            background-color: aqua;
+        }
+        .s1 label{
+            text-align: center;
+        }
+        section{
+            display: flex;
+        }
+        div{
+            /* border: 2px solid black; */
+            height: 350px;
+            margin: 5px;
+        }
+        section div{
+            flex: 1;
+            margin-right: 5px;
+            
+        }
+        /* .c1{
+            height: 70px;
+            width: 15%;
+        } */
+        /* header{
+            display: flex;
+        } */
+        img{
+            width: 100%;
+        }
+        .s3 div img{
+            width: 100%;
+            height: 100%;
+        }
+        .d1 img{
+            width: 100%;
+            height: 91%;
+        }
+        .d5 img{
+            width: 100%;
+            height: 91%;
+        }
+        .d6 img{
+            width: 55%;
+            /* display: flex; */
+        }
+        .d7 img{
+            width: 67%;
+        }
+        .d8 img{
+            width: 72%;
+        }
+        .s5{
+            width: 100%;
+            height: 5%;
+            text-align: center;
+
+        }
+        .d9 img{
+            width: 75%;
+        }
+        .d10 img{
+            width: 64%;
+        }
+        .d11 img{
+            width: 58%;
+        }
+        .d12 img{
+            width: 42%;
+        }
+    </style>
+</head>
+<body>
+    <section class="s1">
+        <label for="All Items"><b>Search any products or brands</b></label>
+        <input list="All accessories" name="Items" id="All Items" placeholder="Enter any product you needed">
+        <datalist id="All accessories">
+            <option value="Mobile devices"></option>
+            <option value="Laptops"></option>
+            <option value="Home appliances"></option>
+            <option value="Kids wear"></option>
+            <option value="Womens wear"></option>
+            <option value="Ladies wear"></option>
+            <option value="Cosmetics"></option>
+            <option value="Toys"></option>
+    </section>
+
+    <hr>
+
+    <header>
+        <!-- <section class="c1">
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202212/redminote12pseries-one_one.jpg?VersionId=dDFCRqwTf1EbrBw0JuG_Ij2RI8TynGzP" alt="mobile image">
+            
+        </section>
+        <section class="c1">
+            <img src="https://nigeriantech.com.ng/wp-content/uploads/2023/07/How-to-Choose-the-Right-Laptop-A-Step-by-Step-Guide-2023-Nigeriantech.com_.ng_.jpg" alt="laptop image">
+        </section>
+        <section class="c1">
+            0.3
+        </section>
+        <section class="c1">
+            0.4
+        </section>
+        <section class="c1">
+            0.5
+        </section> -->
+    </header>
+    <section>
+        <div>
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202212/redminote12pseries-one_one.jpg?VersionId=dDFCRqwTf1EbrBw0JuG_Ij2RI8TynGzP" alt="mobile image">
+            <label for="Mobile"></label>
+            <input list="Mobiles" name="Items" id="Mobile" placeholder="latest mobiles">
+            <datalist id="Mobiles">
+                <option value="Redmi Y3"></option>
+                <option value="Redmi note9"></option>
+                <option value="Samsung S13"></option>
+                <option value="Samsung S15"></option>
+                <option value="realme 11 pro 5G"></option>
+                <option value="iphone 14"></option>
+        </div>
+        <div class="d1">
+            <img src="https://i.rtings.com/assets/pages/6S2WXjTl/best-laptop-medium.jpg" alt="laptop image">
+            <label for="Laptop"></label>
+            <input list="Laptops" name="Items" id="Laptop" placeholder="latest laptops">
+            <datalist id="Laptops">
+                <option value="Asus vivobook S14"></option>
+                <option value="Asus vivobook S15 oled"></option>
+                <option value="HP Pavillion"></option>
+                <option value="Honour magic book x14"></option>
+                <option value="HP 15s"></option>
+                <option value="Asus vivobook 15"></option>
+        </div>
+        <div>
+            <img src="https://img.freepik.com/free-vector/household-appliances-icons-set_1284-6787.jpg?w=2000" alt="home appliances">
+            <label for="Accessories"></label>
+            <input list="Home accessories" name="Items" id="Accessories" placeholder="Home appliances">
+            <datalist id="Home accessories">
+                <option value="Washing machines"></option>
+                <option value="Mixers"></option>
+                <option value="Air conditioners"></option>
+                <option value="Refregirators"></option>
+                <option value="OLED TVs"></option>
+                <option value="Microwave ovens"></option>
+        </div>
+        <div>
+            <img src="https://rukminim2.flixcart.com/image/850/1000/kq5iykw0/makeup-kit/3/k/u/beauty-new-99-beauty-cosmetics-original-imag486zybawksgb.jpeg?q=20" alt="Cosmetics">
+            <label for="Beauty products"></label>
+            <input list="Cosmetics" name="Items" id="Beauty products" placeholder="Beauty products">
+            <datalist id="Cosmetics">
+                <option value="Face washes"></option>
+                <option value="Lipsticks"></option>
+                <option value="Eye shades"></option>
+                <option value="Foundation"></option>
+                <option value="Moisturizers"></option>
+                <option value="Face creams"></option>
+        </div>
+        <div class="d5">
+            <img src="https://cdn.cdnparenting.com/articles/2019/04/01122845/Creative-Toys-for-Kids-462740626.jpg" alt="Toys">
+            <label for="Kids"></label>
+            <input list="Kids Toys" name="Items" id="Kids" placeholder="Kids Toys">
+            <datalist id="Kids Toys">
+                <option value="Teddy bears"></option>
+                <option value="Drawing tablets"></option>
+                <option value="UNO cards"></option>
+                <option value="Building blocks set"></option>
+                <option value="Magnetic chess set"></option>
+                <option value="TAPUJI Dancing cactus"></option>
+        </div>
+    </section>
+    <section class="s3">
+        <div>
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/549da2bd6ce14481.png?q=20" alt="normal pic">
+        </div>
+    </section>
+    <footer>
+        <section class="s4">
+            <div class="d6">
+                <h3 style="font-size: xx-large;">Top deals on Laptops</h3>
+                <a href="https://www.flipkart.com/asus-vivobook-15-core-i3-11th-gen-8-gb-512-gb-ssd-windows-11-home-x515ea-ej322ws-x515ea-ej328ws-thin-light-laptop/p/itmaafbc240a8774?pid=COMGA5TUCZAV4HGH&lid=LSTCOMGA5TUCZAV4HGHWM8PS0&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g&spotlightTagId=BestsellerId_6bo%2Fb5g&srno=s_1_3&otracker=AS_QueryStore_HistoryAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=eeddd952-24a6-448b-9110-259b454a5604.COMGA5TUCZAV4HGH.SEARCH&ppt=sp&ppn=sp&ssid=qx0hrz51800000001692716321213&qH=312f91285e048e09" target="_blank"><img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/q/e/z/-original-imagpxgqesgrthks.jpeg?q=70" alt="laptop image">
+
+                </a>
+                <p><h4>ASUS Vivobook 15 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) </h4></p>
+            </div>
+        <div class="d7">
+            <a href="https://www.flipkart.com/hp-15s-2023-intel-core-i5-11th-gen-16-gb-512-gb-ssd-windows-11-home-15s-fr4001tu-thin-light-laptop/p/itm2420d6e75acdb?pid=COMGZNSB6GCJVUPX&lid=LSTCOMGZNSB6GCJVUPXOWTDNN&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g&srno=s_1_7&otracker=AS_QueryStore_HistoryAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_1_3_na_na_na&fm=Search&iid=eeddd952-24a6-448b-9110-259b454a5604.COMGZNSB6GCJVUPX.SEARCH&ppt=sp&ppn=sp&ssid=qx0hrz51800000001692716321213&qH=312f91285e048e09" target="_blank"><img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/4/b/h/-original-imagp7pfa6tscqpx.jpeg?q=70" alt="image"></a>
+            <p><h4>HP 15s (2023) Intel Core i5 11th Gen - (16 GB/512 GB SSD/Windows 11 Home)</h4></p>
+        </div>
+        <div class="d8">
+            <a href="https://www.flipkart.com/lenovo-ideapad-ryzen-5-hexa-core-5500u-16-gb-512-gb-ssd-windows-11-home-15alc6-thin-light-laptop/p/itme5037d20a9bc5?pid=COMGN2YDSFGGXYG3&lid=LSTCOMGN2YDSFGGXYG3MJBCRU&marketplace=FLIPKART&q=lenovo+ryzen+5+16gb+ram+5500u&store=search.flipkart.com&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=2a4d1a05-5e5f-4f2f-b46d-3b18167614a8.COMGN2YDSFGGXYG3.SEARCH&ppt=sp&ppn=sp&ssid=6sm20bu3yo0000001692716780993&qH=fc6da0b5b9ebd709" target="_blank"><img src="https://rukminim2.flixcart.com/image/832/832/xif0q/computer/n/i/u/-original-imagpa5fbvqzk2xn.jpeg?q=70" alt="image"></a>
+            <p><h4>Lenovo IdeaPad Ryzen 5 Hexa Core 5500U-(16 GB/512 GB SSD/Windows 11 Home)</h4></p>
+
+        </div>
+        </section>
+    </footer>
+        <section class="s5">
+            <div>
+                <h1 style="background-color: bisque;">WANNA TRAVEL LONG?</h1>
+                <a href="https://www.flipkart.com/travel/flights?param=TravelTTTravel_FKTravel_FKHP_DT-HPW_PNB-FEDERAL-20OFF" target="_blank"><img src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/68a88f5f8e47a1a1.jpg?q=50" alt=""></a>
+
+                <hr> 
+            </div>
+        </section>
+
+
+    <section>
+        <div class="d9">
+            <a href="https://www.flipkart.com/myfitness-chocolate-peanut-butter-smooth-510-g/p/itm845c50dd66de8?pid=JASF78GMYGR7CMEY&lid=LSTJASF78GMYGR7CMEYUXTP19&marketplace=FLIPKART&q=MYFITNESS+Chocolate+Peanut+Butter+%28Smooth%29+510+g&store=eat%2Fxhv&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_PeqqQBd5UU3dklHyZPSHZdvES5fKiRNcGmBIpRo3JbeHHELTWnueXwafOfwnXoift4RzaiQgyPy7KzPeeQ0Vkw%3D%3D&ppt=sp&ppn=sp&ssid=9hhtpu40pc0000001692716888714&qH=a1b33fe2f722e7ce" target="_blank"><img src="https://rukminim2.flixcart.com/image/832/832/xif0q/jam-spread/m/u/q/-original-imagrbas39cjfzrn.jpeg?q=70" alt="image"></a>
+            <p><h4>MYFITNESS Chocolate Peanut Butter (Smooth) 510 g</h4></p>
+        </div>
+
+
+        <div class="d10">
+            <a href="https://www.flipkart.com/nutella-ferrero-350-g/p/itmaebf6beae1173?pid=JASFRS95VZWR3YYG&lid=LSTJASFRS95VZWR3YYGKFMTI4&marketplace=FLIPKART&q=Nutella+Ferrero+350+g&store=eat%2Fxhv&spotlightTagId=FkPickId_eat%2Fxhv&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=828108e8-3d6d-46dc-9ca6-6c692b1f0b4f.JASFRS95VZWR3YYG.SEARCH&ppt=sp&ppn=sp&ssid=e3gtjwtr5c0000001692717437175&qH=abceaf56dc2e204f" target="_blank"><img src="https://rukminim2.flixcart.com/image/832/832/xif0q/jam-spread/o/w/v/-original-imagmwb4fjzt3yyx.jpeg?q=70" alt="image"></a>
+            <p><h4>Nutella Ferrero 350 g</h4></p>
+        </div>
+        <div class="d11">
+            <a href="https://www.flipkart.com/canada-nutrition-peanut-butter-high-protein-muscle-building-weight-loss-muscles-mass-1-kg/p/itm3ef43d35dcde5?pid=JASG88HPDBMW3HH7&lid=LSTJASG88HPDBMW3HH7HFMRCR&marketplace=FLIPKART&q=MYFITNESS+Chocolate+Peanut+Butter+%28Smooth%29+510+g&store=eat%2Fxhv&srno=s_1_2&otracker=search&otracker1=search&fm=search-autosuggest&iid=en_NTk2Fcc6N224FQ3dW1ISETyBA5DwANjtx_LglcP8l62rJJs5sgAoY2BnrgFxzGJDCWeJc64KeBaKE0uzrd17ww%3D%3D&ppt=sp&ppn=sp&ssid=rdbfbofvmo0000001692717309373&qH=a1b33fe2f722e7ce" target="_blank"><img src="https://rukminim2.flixcart.com/image/832/832/kv9urgw0/jam-spread/o/v/l/1-peanut-butter-with-high-protein-for-muscle-building-weight-original-imag87eszwzeah3u.jpeg?q=70" alt="image"></a>
+            <p><h4>CANADA NUTRITION Peanut Butter With High Protein For Muscle Building</h4></p>
+        </div>
+        <div class="d12">
+            <a href="https://www.flipkart.com/saffola-peanut-butter-creamy-high-protein-only-jaggery-no-refined-sugar-850-g/p/itm46c06b8d813d9?pid=JASGCVAZEFAJYCZC&lid=LSTJASGCVAZEFAJYCZCQSXO0T&marketplace=FLIPKART&q=Saffola+Peanut+Butter%2C+Creamy%2C+High+Protein+%2C+Only+Jaggery&store=eat%2Fxhv&spotlightTagId=FkPickId_eat%2Fxhv&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=dde1d48c-4ea9-4d40-a39b-c7969784ab33.JASGCVAZEFAJYCZC.SEARCH&ppt=sp&ppn=sp&ssid=xgrlb9hfm80000001692717504772&qH=63c4f805ffc5ae38" target="_blank"><img src="https://rukminim2.flixcart.com/image/832/832/l26hdow0/jam-spread/5/o/m/900-peanut-butter-creamy-plastic-bottle-1-nut-butter-saffola-original-imagdh3yrvhtc6vx.jpeg?q=70" alt="image"></a>
+            <p><h4>Saffola Peanut Butter, Creamy, High Protein , Only Jaggery</h4></p>
+        </div>
+    </section>
+</body>
+</html>
