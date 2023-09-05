@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        /* Because of the psuedo selector priority, though we apply 'li' tag selector it isn't applying for 'ol li' selector. It is separately applying for 'ol li' selector and 'li' tag selector differently */
+        /* ol li:first-child{
+            border: 3px solid black;
+            font-size: xx-large;
+            font-style: italic;
+            color: blueviolet;
+        }
+        ol li:last-child{
+            border: 3px solid black;
+            font-size: xx-large;
+            font-style: italic;
+            color: blueviolet;
+        } */
+        li:first-child{
+            border: 3px solid plum;
+            font-size: xx-large;
+            font-style: italic;
+            color: blueviolet;
+        }
+        li:last-child{
+            border: 3px solid plum;
+            font-size: xx-large;
+            font-style: italic;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <ol>
+            <li>order one</li>
+            <li>order two</li>
+            <li>order three</li>
+            <li>order four</li>
+            <li>order five</li>
+        </ol>
+        <ul>
+            <li>unorder one</li>
+            <li>unorder two</li>
+            <li>unorder three</li>
+            <li>unorder four</li>
+            <li>unorder five</li>
+        </ul>
+    </section>
+</body>
+</html>

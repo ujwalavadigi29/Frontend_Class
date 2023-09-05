@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Decendent selectors</title>
+    <style>
+        section div{
+            color: blueviolet;
+            background-color: bisque;
+            font-size: xx-large;
+        }
+        section p{
+            color: blueviolet;
+            background-color: bisque;
+            font-size: xx-large;
+        }
+        section p b{
+            color: red;
+            background-color: bisque;
+            font-size: xx-large;
+        }
+
+        /* The below two are for class selectors and class+group selectors */
+        .l2{
+            color: red;
+            background-color: bisque;
+            font-size: xx-large;
+        }
+        .l1,.l3{
+            color: red;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>first one</div>
+        <div>second one</div>
+        <div>third one</div>
+        <div>fourth one</div>
+    </section>
+    <section>
+        <p>hello everyone</p>
+    </section>
+
+    <section>
+        <p>in this we will be writing <b>bold heading</b>also</p>
+    </section>
+
+    <section>
+        <ul>
+            <li class="l1">first one</li>
+            <li class="l2">third one</li>
+            <li class="l3">fifth one</li>
+        </ul>
+    </section>
+</body>
+</html>

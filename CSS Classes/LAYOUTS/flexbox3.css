@@ -1,0 +1,25 @@
+.dropdown-button{
+    background-color: aquamarine;
+    color: white;
+    padding: 15px 45px;
+    border: none;
+}
+
+/* .dropdown-container{
+    border: 2px solid black;
+    display: none;
+} */
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 38px;
+    color: black;
+}
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    background-color: whitesmoke;
+    position: absolute;
+}

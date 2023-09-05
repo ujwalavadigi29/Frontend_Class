@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* div{
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+        div:nth-child(2n){
+            background-color: blue;
+        } */
+
+        /* Here, we are using element selector in pseudo selectors.In this we apply'::', for class selectors in pseudo selectors we apply ':' */
+        
+            div::first-line{
+            background-color: aqua;
+            font-style: italic;
+        }
+        div::first-letter{
+            color: brown;
+            font-size: xx-large;
+        }
+    </style> 
+</head>
+<body>
+    <!-- <div>first one</div>
+    <div>second one</div>
+    <div>third one</div>
+    <div>fourth one</div>
+    <div>fifth one</div> -->
+
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque non esse id praesentium tempora error
+        est, odit quibusdam. Doloribus beatae aperiam sequi quis vitae, est omnis reprehenderit totam ex.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ea quod, accusantium autem incidunt quo neque corrupti
+        reprehenderit sed reiciendis, quis ducimus eum nesciunt dignissimos unde nisi natus ullam corporis.
+    </div>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque non esse id praesentium tempora error
+        est, odit quibusdam. Doloribus beatae aperiam sequi quis vitae, est omnis reprehenderit totam ex.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ea quod, accusantium autem incidunt quo neque corrupti
+        reprehenderit sed reiciendis, quis ducimus eum nesciunt dignissimos unde nisi natus ullam corporis.
+    </div>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque non esse id praesentium tempora error
+        est, odit quibusdam. Doloribus beatae aperiam sequi quis vitae, est omnis reprehenderit totam ex.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ea quod, accusantium autem incidunt quo neque corrupti
+        reprehenderit sed reiciendis, quis ducimus eum nesciunt dignissimos unde nisi natus ullam corporis.
+    </div>
+</body>
+</html>

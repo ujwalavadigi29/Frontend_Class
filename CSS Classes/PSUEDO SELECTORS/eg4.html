@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* Here we used decendent, psuedo and grouping selectors together */
+        ol li:first-child, ol li:last-child{
+            background-color: aquamarine;
+            margin: 5px;
+            padding: 10px;
+            border: 3px solid black;
+        }
+        /* Here we used decendent and psuedo selectors for bold tag which is in div,p tags */
+        div p b:nth-child(2){
+            border: 3px solid black;
+            font-size: xx-large;
+            font-style: italic;
+            color: blueviolet;
+        }
+        div p b:first-child{
+            border: 3px solid black;
+            font-size: xx-large;
+            font-style: italic;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>order one</li>
+        <li>order two</li>
+        <li>order three</li>
+        <li>order four</li>
+        <li>order five</li>
+        <li>order six</li>
+        <li>order seven</li>
+        <li>order eight</li>
+        <li>order nine</li>
+        <li>order ten</li>
+    </ol>
+
+    <div>
+        <p>
+            <b>Java</b> <b>Javasript</b> <b>Python</b> <b>.net</b>
+        </p>
+    </div>
+</body>
+</html>

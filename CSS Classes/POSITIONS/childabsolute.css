@@ -1,0 +1,47 @@
+.d1{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.d2{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.d3{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+}
+
+.d4{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightskyblue;
+}
+.d21{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: bisque;
+    position: absolute;
+    top: 30px;
+}
+.d22{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightcyan;
+    position: absolute;
+    top: 10px;
+}
+
+
+/* here in .d21 and .d22, it goes into negative pixels with decrease in given pixel value as its mother(.d2) is relative, so these will also follow in its mother path i.e, it can start only from where we given element, it cannot start from browser point though they are at absolute positions. */

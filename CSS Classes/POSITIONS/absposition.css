@@ -1,0 +1,31 @@
+.d1{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.d2{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    /* Absolute means it starts from browser view point or port i.e, it starts from '0' position at start of page only and also in absolute position it will  convert block level to inline level element */
+    position: absolute;
+    /* from top starting from '0', it reaches down upto 250px */
+    top: 250px;
+    bottom: 300px;
+    right: 350px;
+    left: 400px;
+}
+.d3{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+.d4{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: azure;
+}

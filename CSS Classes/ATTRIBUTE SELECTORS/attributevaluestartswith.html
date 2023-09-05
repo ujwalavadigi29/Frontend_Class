@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Attribitevalue starts with</title>
+    <style>
+        [href^="https"]{
+            border: 3px solid blue;
+            font-size: xx-large;
+        }
+        [src^="./"]{
+            border: 3px solid blue;
+        }
+        [src^="https"]{
+            border: 3px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com" target="_blank">Google</a>
+
+    <hr>
+
+    <img src="./img attribute.png" alt="normal image" width="500px">
+
+    <hr>
+
+    <video controls src="https://www.youtube.com/embed/L_VWgj06DKI" title="YouTube video player"></video>
+</body>
+</html>

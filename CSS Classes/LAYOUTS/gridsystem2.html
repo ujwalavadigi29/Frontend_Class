@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title</title>
+    <style>
+        section, div{
+            border: 2px solid black;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: grid;
+
+            /* For below statement, the row height can't be changed if any one of the px height is changed. If we want to increase every row height then we need to change all manually in down statement */
+            grid-template-rows: 250px 250px 250px 250px 250px 250px 250px 250px;
+
+            /* But for below statement since we wrote only single row px height, so if we increase that height every row height increases parallely */
+            /* grid-template-rows: 250px; */
+            /* grid-template-columns: 250px; */
+        }
+        section div{
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+        <div>seven</div>
+        <div>eight</div>
+    </section>
+</body>
+</html>

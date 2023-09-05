@@ -1,0 +1,39 @@
+.dropdown-button{
+    background-color: blue;
+    color: white;
+    padding: 15px 45px;
+    border: none;
+}
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 38px;
+    color: black;
+    font-size: large;
+}
+.dropdown-container button{
+    font-size: large;
+    display: flex;
+    flex: 1;
+}
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    background-color: whitesmoke;
+    position: absolute;
+}
+section, .main{
+    display: flex;
+    margin: 5px;
+    flex: 1;
+}
+.main:nth-child(1){
+    display: flex;
+    margin: 5px;
+    flex: 2;
+}
+section{
+    background-color: blue;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Child selectors</title>
+   <style>
+        ol > li{
+            color: blueviolet;
+            background-color: bisque;
+            font-size: xx-large;
+            border: 3px solid black;
+            margin: 15px;
+        }
+        ul > li{
+            color: blueviolet;
+            font-size: xx-large;
+            border: 3px solid black;
+            margin: 15px;
+        }
+        section div{
+            color: blueviolet;
+            font-size: xx-large;
+            border: 3px solid black;
+            margin: 15px;
+        }
+
+        /* Here #s1 > .c2(childselector) and #s1 .c2(decendentselector) and only .c2(class selector) are all gives same output */
+        #s1 > .c2{
+            color: blueviolet;
+            font-size: xx-large;
+            background-color: bisque;
+            border: 3px solid black;
+            margin: 15px;
+        }
+   </style>
+</head>
+<body>
+    <section>
+        <ol>
+            <li>ordered first one</li>
+            <li>ordered second one</li>
+            <li>ordered third one</li>
+            <li>ordered fourth one</li>
+        </ol>
+    </section>
+        <ul>
+            <li>unordered first one</li>
+            <li>unordered second one</li>
+            <li>unordered third one</li>
+            <li>unordered fourth one</li>
+        </ul>
+
+    <section id="s1">
+        <div class="c1">one</div>
+        <div class="c2">two</div>
+        <div class="c3">three</div>
+    </section>
+</body>
+</html>

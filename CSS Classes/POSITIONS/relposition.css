@@ -1,0 +1,30 @@
+.d1{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.d2{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.d3{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    /* Here, in relative position, the exact view port starts from the place where we give element only, it does not start from '0' position of browser start page and also in relative position it does not convert block level to inline level */
+    position: relative;
+    top: 30px;
+    bottom: 50px;
+    /* left: 20px;
+    right: 20px; Here the left and right actions cannot be done accurately as it remains as block level only so when the left and right actions takes place then it may move out of the DOM page  */
+}
+.d4{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: azure;
+}

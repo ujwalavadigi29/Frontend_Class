@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tag selector</title>
+    <style>
+        /* here we use both id and group selectors by writing both '#' and ','  */
+        #i1,div{
+            border: 3px solid blue;
+            font-style: italic;
+            padding: 5px;
+            margin: 5px;
+            background-color: aqua;
+            color: aliceblue;
+        }
+        /* here whatever we write in 2nd div, that border colour gets overlaped on 1st div border colour */
+        #i2,div{
+            border: 3px solid plum;
+            font-style: italic;
+            padding: 5px;
+            margin: 5px;
+            background-color: aqua;
+            color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="i1">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+    </section>
+
+    <section id="i2">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+    </section>
+</body>
+</html>

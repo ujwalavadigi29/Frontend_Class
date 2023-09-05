@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>class selector</title>
+    <style>
+        /* here we use both id and group selectors by writing both '#' and ','  */
+        #i1,div{
+            border: 3px solid blue;
+            font-style: italic;
+            padding: 5px;
+            margin: 5px;
+        }
+        /* here whatever we write in 2nd div, that border colour gets overlaped on 1st div border colour */
+        #i2,div{
+            border: 3px solid plum;
+            font-style: italic;
+            padding: 5px;
+            margin: 5px;
+        }
+        .c1{
+            background-color: aqua;
+            font-style: normal;
+        }
+        .c2{
+            background-color: aqua;
+            font-style: normal;
+        }
+        #i1, .c3, .c4{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <section id="i1">
+        <div class="c1">One</div>
+        <div class="c2">Two</div>
+        <div class="c3">Three</div>
+        <div class="c4">Four</div>
+    </section>
+
+    <section id="i2">
+        <div class="c1">One</div>
+        <div class="c2">Two</div>
+        <div class="c3">Three</div>
+        <div class="c4">Four</div>
+    </section>
+</body>
+</html>
